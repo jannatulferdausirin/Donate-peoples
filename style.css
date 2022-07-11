@@ -4,7 +4,9 @@ body{
 }
 .flexiable-container {
     display: flex;
-    margin-bottom: 150px;}
+    margin-bottom: 150px;
+   
+}
 
 
 .donation9{
@@ -16,7 +18,7 @@ padding-bottom:30px;
 }
 
 .help-us{
-    color:tomato;
+    color:rgb(49, 203, 220);
    text-align: center;
    
 }
@@ -27,13 +29,16 @@ padding-top: 10%;
 }
 .donate-title{
     text-align: center;
+    padding: 20px;
 }
 .dt{
     color:maroon;
+    padding: 20px;
     
 }
 .odp{
     color: rgb(7, 142, 245);
+    padding: 20px;
 }
 
 .button {
@@ -50,9 +55,10 @@ padding-top: 10%;
     width: 25%;
     margin: 0 auto;
     border: 1px solid red;
-    padding: 10px;
+    padding: 10px 8px;
     border-radius: 10px;
     background-color: lightseagreen;
+    font-family: sans-serif;
 }
 #hp{
     background-color:lightpink;
@@ -89,10 +95,46 @@ background-color:lightgoldenrodyellow
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+#doll-info{
+    font-size: 20px;
+    padding: 20px 
 }
 .our-plan{
     margin-top: 20px;
     text-align: center;
+}
+.special{
+    color: crimson;
+    padding: 20px;
+    text-align: center;
+}
+.sp-one{
+    display: flex;
+    padding: 10px;
+    
+}
+.special-one{
+width: 25%;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 10px 8px;
+    border-radius: 10px;
+    
+    font-family: cursive;
+}
+#sp1{
+    color: darkred;
+    background-color: rgb(84, 222, 222);
+}
+#sp2{
+    color: darkslateblue;
+    background-color: rgb(183, 239, 127);
+}
+#sp3{
+background-color: rgb(236, 165, 139);
+color: darkblue;
 }
 .update{
     
@@ -104,6 +146,7 @@ background-color:lightgoldenrodyellow
 .update-container{
     text-align: center;
     justify-content: center;
+    padding: 20px;
 }
 
 
@@ -111,7 +154,7 @@ background-color:lightgoldenrodyellow
     background-color:lightsteelblue;
     color: #fff;
     border: none;
-    padding: 8px 10px;
+    padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top: 10px;
