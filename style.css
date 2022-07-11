@@ -1,0 +1,143 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0% auto;
+}
+.flexiable-container {
+    display: flex;
+    margin-bottom: 150px;}
+
+
+.donation9{
+   height: 500px;
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+padding-bottom:30px;
+}
+
+.help-us{
+    color:tomato;
+   text-align: center;
+   
+}
+
+.help-us h1{
+padding-top: 10%;
+
+}
+.donate-title{
+    text-align: center;
+}
+.dt{
+    color:maroon;
+    
+}
+.odp{
+    color: rgb(7, 142, 245);
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(122, 222, 234), rgb(251, 10, 10));
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.help {
+    display: flex;
+}
+
+.help-plan{
+    width: 25%;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
+#hp{
+    background-color:lightpink;
+    color:darkgreen
+}
+#hp1{
+    background-color: lightblue;
+    color: crimson;
+}
+#hp2{
+    background-color: lemonchiffon;
+    color:darkorchid;
+}
+
+.box{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.amount{
+    padding: 30px;
+    border: 1px solid gray;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: lightskyblue;
+}
+#box-border{
+    border:3px solid red;
+background-color:lightgoldenrodyellow
+}
+.other-amount{
+    margin-top:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-plan{
+    margin-top: 20px;
+    text-align: center;
+}
+.update{
+    
+    margin-top: 20px;
+ align-items: center;
+ 
+ color: chocolate;
+}
+.update-container{
+    text-align: center;
+    justify-content: center;
+}
+
+
+.update-email{
+    background-color:lightsteelblue;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.help blog-info{
+    background-color:burlywood;
+    height:50px;
+    width:50%;
+}
+.footer-title{
+    font-family: cursive;
+text-align: center;
+background-color: rgb(1, 1, 5);
+color:white;
+padding-top: 20px;
+margin-bottom: 5px;
+}
+.footer-title h2{
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
