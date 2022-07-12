@@ -18,7 +18,7 @@ padding-bottom:30px;
 }
 
 .help-us{
-    color:rgb(49, 203, 220);
+    color:rgb(243, 59, 83);
    text-align: center;
    
 }
@@ -43,7 +43,7 @@ padding-top: 10%;
 
 .button {
     text-decoration: none;
-    background-image: linear-gradient(rgb(122, 222, 234), rgb(251, 10, 10));
+    background-image: linear-gradient(rgb(201, 244, 120), rgb(245, 33, 33));
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -77,7 +77,7 @@ padding-top: 10%;
     display: flex;
    align-items: center;
    justify-content: center;
-   
+   margin-bottom: 30px;
 }
 .amount{
     padding: 30px;
@@ -94,13 +94,23 @@ background-color:lightgoldenrodyellow
     margin-top:20px ;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;} 
 
+.doll input{
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style:hidden ;
+    border-bottom-style:groove ;
+    background-color: #eee;
+    
 }
-#doll-info{
-    font-size: 20px;
-    padding: 20px 
-}
+
+
+    
 .our-plan{
     margin-top: 20px;
     text-align: center;
@@ -136,6 +146,11 @@ width: 25%;
 background-color: rgb(236, 165, 139);
 color: darkblue;
 }
+.help blog-info {
+    background-color: burlywood;
+    height: 50px;
+    width: 50%;}
+
 .update{
     
     margin-top: 20px;
@@ -143,26 +158,46 @@ color: darkblue;
  
  color: chocolate;
 }
-.update-container{
+.Get-My-Updates{
     text-align: center;
     justify-content: center;
     padding: 20px;
+    align-items: center;
+    align-content: center;
 }
-
-
-.update-email{
-    background-color:lightsteelblue;
+.update-email {
+    background-color: lightsteelblue;
     color: #fff;
     border: none;
-    padding: 10px;
+    padding: 10px 10px;
     border-radius: 5px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    align-content: center;
+    display: flex;
 }
-.help blog-info{
-    background-color:burlywood;
-    height:50px;
-    width:50%;
+.form-wrapper{
+    display: flex;
+    width: 50%;
+    height: 20vh;
+    padding: 5px;
+    background: rgb(193, 193, 249);
+ justify-content: center;
+ align-items: center;
+ border-radius: 5px;
+ margin: 10px;
+ align-content: center;
+ margin: 0% auto;
+}
+.form-wrapper input{
+    width:100px;
+    
+}
+.form-wrapper button{
+   background-color:red;
+   
+   
+}
+.special-one img{
+    width:100% ;
 }
 .footer-title{
     font-family: cursive;
